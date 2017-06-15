@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.p2q2.DisplayMidpointActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:text="@string/MidPoint"
+        style = "@style/RowStyle"/>
+
+    <EditText
+        android:id="@+id/x_midpoint"
+        style = "@style/InputStyle"
+        android:hint="@string/x_coordinate"/>
+    <EditText
+        android:id="@+id/y_midpoint"
+        style = "@style/InputStyle"
+        android:hint="@string/y_cordinate"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
